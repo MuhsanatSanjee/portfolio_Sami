@@ -1,3 +1,30 @@
+// sticky menu
+
+$(window).scroll(function(){
+  var scrollamount = $(window).scrollTop()
+  
+  if(scrollamount > 100){
+    $(".menu").addClass("fixed")
+  }else{
+    $(".menu").removeClass("fixed")
+  }
+
+  if(scrollamount > 550){
+    $(".btop").fadeIn();
+  }else{
+    $(".btop").fadeOut();
+  }
+
+})
+
+$(".btop").click(function(){
+$("html,body").animate({
+  scrollTop:0
+},1000)
+})
+
+
+
 //banner slider
 
 $('#banner_part').slick({

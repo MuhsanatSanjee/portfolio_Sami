@@ -12,6 +12,10 @@ h1,h2,h3,h4,h5,h6,p{
     margin: 0;
 }
 
+/* html,body{
+    scroll-behavior: smooth;
+} */
+
 .title{
     text-align: center;
 }
@@ -78,6 +82,23 @@ nav ul li a::after{
 }
 nav ul li a:hover::after{
     width: 100%;
+}
+
+.fixed{
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .9);
+}
+
+nav .active::after{
+    width: 100%;
+    height: 3px;
+    background: #ffffff;
+    content: "";
+    position: absolute;
+    bottom: -23px;
+    left: 0;
 }
 
 /************************************************
@@ -173,7 +194,7 @@ nav ul li a:hover::after{
 *************************************************/
 
 #about_part{
-    margin-top: 80px;
+    padding-top: 80px;
 }
 #about_part .round{
     width: 200px;
@@ -265,7 +286,7 @@ box-shadow: 0px 0px 3px 4px rgba(199,224,199,1);
 *************************************************/
 
 #project_part{
-    margin-top: 80px;
+    padding-top: 80px;
 }
 #project_part .project{
     margin-top: 50px;
@@ -391,7 +412,7 @@ box-shadow: 0px 0px 3px 4px rgba(199,224,199,1);
 ************************************************/
 
 #photography_part{
-    margin-top: 80px;
+    padding-top: 80px;
 }
 
 #photography_part .bg{
@@ -524,7 +545,7 @@ box-shadow: 0px 0px 3px 4px rgba(199,224,199,1);
 ************************************************/
 
 #contact_part{
-    margin-top: 80px;
+    padding-top: 80px;
 }
 
 #contact_part .info{
@@ -596,6 +617,19 @@ box-shadow: 0px 0px 3px 4px rgba(199,224,199,1);
 /********************************************************
                     footer part start 
 *******************************************************/
+
+        /******* back to top ********/
+.btop{
+    display: none;
+    padding: 8px 18px;
+    background: #5dc269;
+    color: #000000;
+    font-size: 20px;
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+}
+
 
 footer{
     background-color: #252525;
