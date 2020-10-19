@@ -55,7 +55,7 @@ $('#banner_part').slick({
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 575,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
@@ -102,7 +102,7 @@ $('#banner_part').slick({
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 576,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1

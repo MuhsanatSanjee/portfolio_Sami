@@ -136,7 +136,7 @@ nav .active::after{
     font-weight: 500;
     margin-bottom: 8px;
 }
-#banner_part .banner .overlay .text h2{
+#banner_part .banner .overlay .text h1{
     color: #5dc269;
     font-size: 55px;
     font-family:  'Raleway', sans-serif;
@@ -243,12 +243,11 @@ box-shadow: 0px 0px 3px 4px rgba(199,224,199,1);
     color: #777777;
     font-size: 16px;
     font-family:  'Raleway', sans-serif;
-    margin-top: 50px;
+    margin-top: 20px;
     text-align: inherit;
+    padding-bottom: 25px;
 }
-#about_part .detail .p{
-    margin-top: 35px;
-}
+
 
 #about_part .detail a{
     display: inline-block;
@@ -261,7 +260,6 @@ box-shadow: 0px 0px 3px 4px rgba(199,224,199,1);
     border-radius: 5px;
     margin-left: 12px;
     margin-right: 12px;
-    margin-top: 35px;
     font-weight: 700;
     transition: .4s;
     
@@ -291,6 +289,7 @@ box-shadow: 0px 0px 3px 4px rgba(199,224,199,1);
 #project_part .project{
     margin-top: 50px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 

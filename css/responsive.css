@@ -1,0 +1,232 @@
+@media (min-width:320px) and (max-width:575px){
+
+                 /* navbar */
+
+    .navbar{
+        padding: 8px 8px !important;
+    }
+
+    .navbar-brand img{
+        width: 70%;
+        margin-left: 7px;
+    }
+
+    .navbar-toggler i{
+        color: #5dc269;;
+        font-size: 20px;
+    }
+
+    nav ul{
+        background: #000;
+    }
+
+    nav ul li{
+        margin-left: 0;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    nav ul li a::after{
+        display: none;
+    }
+
+
+
+
+
+                /* banner part start */
+
+    #banner_part .banner .overlay .text{
+        margin-left: 0;
+    }
+
+    #banner_part .banner .overlay .text h4{
+        font-size: 14px;
+    }
+
+    #banner_part .banner .overlay .text h1{
+        font-size: 32px;
+    }
+
+    #banner_part .banner .overlay .text p{
+        font-size: 14px;
+        width: auto;
+    }
+
+    #banner_part .banner .overlay .text h5{
+        font-size: 17px;
+        letter-spacing: 0;
+    }
+
+    #banner_part .banner .overlay .text i{
+        margin-left: 12px;
+        margin-right: 6px;
+    }
+    #banner_part .banner .overlay .text .gol{
+        margin-right: 10px;
+    }
+
+    #banner_part .banner .overlay .text i{
+        margin-left: 12px;
+    }
+
+                /* banner part end */
+
+
+
+
+
+
+                /* about part start */
+
+    .title h2{
+        font-size: 28px;
+     }
+     
+    .title span{
+        font-size: 45px;
+     }
+
+    .title p{
+        width: auto;
+     }
+
+     #about_part .detail p{
+        width: auto;
+     }
+
+     #about_part .detail a{
+         margin-right: 0;
+         margin-left: 45px;
+     }
+
+     #about_part .detail .btn{
+         margin-left: 72px;
+         margin-top: 25px;
+     }
+
+                /* about part end */
+
+
+
+
+
+
+                /* project part start */
+
+    #project_part .project{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #project_part .project .pro_detail{
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    #project_part .project .dlast{
+        margin-bottom: 0;
+    }
+
+    #project_part .project .pro_detail .image{
+        width: 290px;
+    }
+
+    #project_part .project .pro_detail .headline p{
+        width: auto;
+    }
+
+                /* project part end */
+
+
+
+
+
+
+
+                /* project part start */
+
+    #testimonial_part .overlay{
+        padding: 40px 0;
+    }
+
+    #testimonial_part .overlay .item p{
+        width: auto;
+    }
+
+                /* project part end */
+
+
+
+
+
+                /* contact part start */
+
+    #contact_part .info input{
+        width: auto;
+        padding: 18px 22px;
+    }
+
+    #contact_part .info textarea.form-control{
+        margin-left: 46px;
+    }
+
+    #contact_part .info .form-control{
+        width: 250px;
+    }
+
+    #contact_part .info .form-control + label{
+        left: 88px;
+    }
+
+    #contact_part .image{
+        margin-top: 0;
+    }
+
+                /* contact part end */
+
+
+
+
+
+
+                 /* footer part start */
+
+    footer .details{
+        padding-top: 70px;
+    }
+
+    footer .details .icon{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    footer .details .text p{
+        width: 216px;
+        margin: 0 auto;
+    }
+
+    footer .details .text .p{
+        margin: 0 auto;
+    }
+
+    footer .details .follow .icn i{
+        width: 33px;
+        height: 33px;
+        line-height: 33px;
+        font-size: 15px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .btop{
+        padding: 5px 16px;
+        font-size: 18px;
+        bottom: 75px;
+        right: 15px;
+    }
+
+                /* footer part end */
+
+}
