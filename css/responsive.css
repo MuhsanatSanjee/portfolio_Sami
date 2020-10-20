@@ -37,6 +37,14 @@
 
                 /* banner part start */
 
+    #about_part .t_about{
+        margin-bottom: 50px;
+    }
+
+    #about_part .round{
+        margin: 0 auto;
+    }
+
     #banner_part .banner .overlay .text{
         margin-left: 0;
     }
@@ -97,13 +105,15 @@
      }
 
      #about_part .detail a{
-         margin-right: 0;
-         margin-left: 45px;
+        font-size: 12px;
+        padding: 12px 18px;
+        margin-left: 0;
+        margin-right: 0;
      }
 
      #about_part .detail .btn{
-         margin-left: 72px;
-         margin-top: 25px;
+        margin-left: 10px;
+        
      }
 
                 /* about part end */
@@ -130,7 +140,7 @@
     }
 
     #project_part .project .pro_detail .image{
-        width: 290px;
+        width: auto;
     }
 
     #project_part .project .pro_detail .headline p{
@@ -166,10 +176,19 @@
     #contact_part .info input{
         width: auto;
         padding: 18px 22px;
+        margin-right: 12px;
+    }
+
+    #contact_part .info .name{
+        /* margin-right: 50px; */
+    }
+
+    #contact_part .info .mb{
+        margin-bottom: 40px;
     }
 
     #contact_part .info textarea.form-control{
-        margin-left: 46px;
+        margin: auto;
     }
 
     #contact_part .info .form-control{
@@ -177,7 +196,7 @@
     }
 
     #contact_part .info .form-control + label{
-        left: 88px;
+        left: 33%;
     }
 
     #contact_part .image{

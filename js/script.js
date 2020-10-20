@@ -145,7 +145,7 @@ $('.testi_detail').slick({
       }
     },
     {
-      breakpoint: 480,
+      breakpoint: 576,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1
