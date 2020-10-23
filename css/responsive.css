@@ -1,4 +1,4 @@
-@media (min-width:320px) and (max-width:575px){
+@media (min-width:320px) and (max-width:577px){
 
                  /* navbar */
 
@@ -37,13 +37,7 @@
 
                 /* banner part start */
 
-    #about_part .t_about{
-        margin-bottom: 50px;
-    }
-
-    #about_part .round{
-        margin: 0 auto;
-    }
+    
 
     #banner_part .banner .overlay .text{
         margin-left: 0;
@@ -99,6 +93,14 @@
     .title p{
         width: auto;
      }
+
+     #about_part .t_about{
+        margin-bottom: 50px;
+    }
+
+    #about_part .round{
+        margin: 0 auto;
+    }
 
      #about_part .detail p{
         width: auto;
@@ -174,13 +176,15 @@
                 /* contact part start */
 
     #contact_part .info input{
-        width: auto;
+        width: 300px;
         padding: 18px 22px;
-        margin-right: 12px;
+        margin: 0 auto;
+        display: block;
     }
 
     #contact_part .info .name{
-        /* margin-right: 50px; */
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 
     #contact_part .info .mb{
@@ -188,15 +192,16 @@
     }
 
     #contact_part .info textarea.form-control{
-        margin: auto;
+        margin: 0 auto;
     }
 
     #contact_part .info .form-control{
-        width: 250px;
+        width: 300px;
     }
 
     #contact_part .info .form-control + label{
-        left: 33%;
+        top: 425px;
+        left: 32%;
     }
 
     #contact_part .image{
@@ -249,3 +254,535 @@
                 /* footer part end */
 
 }
+
+
+
+
+
+
+
+
+@media (min-width:578px) and (max-width:769px){
+
+    /* navbar */
+
+.navbar{
+padding: 8px 8px !important;
+}
+
+.navbar-brand img{
+width: 70%;
+margin-left: 7px;
+}
+
+.navbar-toggler i{
+color: #5dc269;;
+font-size: 20px;
+}
+
+nav ul{
+background: #000;
+}
+
+nav ul li{
+margin-left: 0;
+text-align: center;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+nav ul li a::after{
+display: none;
+}
+
+
+
+
+
+   /* banner part start */
+
+
+
+#banner_part .banner .overlay .text{
+margin-left: 0;
+}
+
+#banner_part .banner .overlay .text h4{
+font-size: 14px;
+}
+
+#banner_part .banner .overlay .text h1{
+font-size: 45px;
+}
+
+#banner_part .banner .overlay .text p{
+font-size: 14px;
+width: auto;
+}
+
+#banner_part .banner .overlay .text h5{
+font-size: 20px;
+letter-spacing: 6px;
+}
+
+#banner_part .banner .overlay .text i{
+margin-left: 12px;
+margin-right: 6px;
+}
+#banner_part .banner .overlay .text .gol{
+margin-right: 10px;
+}
+
+#banner_part .banner .overlay .text i{
+margin-left: 12px;
+}
+
+   /* banner part end */
+
+
+
+
+
+
+   /* about part start */
+
+.title h2{
+font-size: 28px;
+}
+
+.title span{
+font-size: 45px;
+}
+
+.title p{
+width: auto;
+}
+
+#about_part .t_about{
+margin-bottom: 50px;
+}
+
+#about_part .round{
+margin: 0 auto;
+}
+
+#about_part .detail p{
+width: auto;
+}
+
+#about_part .detail a{
+font-size: 12px;
+padding: 12px 18px;
+margin-left: 0;
+margin-right: 0;
+}
+
+#about_part .detail .btn{
+margin-left: 10px;
+
+}
+
+   /* about part end */
+
+
+
+
+
+
+   /* project part start */
+
+#project_part .project{
+display: flex;
+flex-direction: column;
+}
+
+#project_part .project .pro_detail{
+width: 100%;
+margin-bottom: 60px;
+}
+
+#project_part .project .dlast{
+margin-bottom: 0;
+}
+
+#project_part .project .pro_detail .image{
+width: auto;
+}
+
+#project_part .project .pro_detail .headline p{
+width: auto;
+}
+
+   /* project part end */
+
+
+
+
+
+
+
+   /* project part start */
+
+#testimonial_part .overlay{
+padding: 40px 0;
+}
+
+#testimonial_part .overlay .item p{
+width: auto;
+}
+
+   /* project part end */
+
+
+
+
+
+   /* contact part start */
+
+#contact_part .info input{
+width: 300px;
+padding: 18px 22px;
+margin: 0 auto;
+display: block;
+}
+
+#contact_part .info .name{
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+#contact_part .info .mb{
+margin-bottom: 40px;
+}
+
+#contact_part .info textarea.form-control{
+margin: 0 auto;
+}
+
+#contact_part .info .form-control{
+width: 300px;
+}
+
+#contact_part .info .form-control + label{
+top: 425px;
+left: 35%;
+}
+
+#contact_part .image{
+margin-top: 0;
+}
+
+   /* contact part end */
+
+
+
+
+
+
+    /* footer part start */
+
+footer .details{
+padding-top: 70px;
+}
+
+footer .details .icon{
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+footer .details .text p{
+width: 216px;
+margin: 0 auto;
+}
+
+footer .details .text .p{
+margin: 0 auto;
+}
+
+footer .details .follow .icn i{
+width: 33px;
+height: 33px;
+line-height: 33px;
+font-size: 15px;
+margin-left: 5px;
+margin-right: 5px;
+}
+
+.btop{
+padding: 5px 16px;
+font-size: 18px;
+bottom: 75px;
+right: 15px;
+}
+
+   /* footer part end */
+
+}
+
+
+
+
+
+
+
+@media (min-width:770px) and (max-width:991px){
+
+    /* navbar */
+
+
+.navbar-toggler i{
+color: #5dc269;;
+font-size: 20px;
+}
+
+nav ul{
+background: #000;
+}
+
+nav ul li{
+margin-left: 0;
+text-align: center;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+nav ul li a::after{
+display: none;
+}
+
+
+
+
+
+   /* banner part start */
+
+
+
+#banner_part .banner .overlay .text{
+margin-left: 0;
+}
+
+#banner_part .banner .overlay .text h4{
+font-size: 15px;
+}
+
+#banner_part .banner .overlay .text h1{
+font-size: 50px;
+}
+
+#banner_part .banner .overlay .text p{
+font-size: 16px;
+width: auto;
+}
+
+#banner_part .banner .overlay .text h5{
+font-size: 20px;
+letter-spacing: 8px;
+}
+
+#banner_part .banner .overlay .text i{
+margin-left: 22px;
+margin-right: 10px;
+}
+#banner_part .banner .overlay .text .gol{
+margin-right: 22px;
+}
+
+
+            /* banner part end */
+
+
+
+
+
+
+        /* about part start */
+
+
+   /* 
+.title h2{
+font-size: 32px;
+}
+
+.title span{
+font-size: 48px;
+}
+
+.title p{
+width: auto;
+font-size: 14px;
+}*/
+
+#about_part .t_about{
+margin-bottom: 50px;
+} 
+
+#about_part .round{
+margin: 0 auto;
+}
+
+#about_part .detail p{
+width: auto;
+}
+
+#about_part .detail a{
+    margin-left: 0;
+}
+
+#about_part .detail .btn{
+    margin-left: 20px;
+}
+
+
+   /* about part end */
+
+
+
+
+
+
+   /* project part start */
+
+/* #project_part .project{
+display: flex;
+flex-direction: column;
+}
+
+#project_part .project .pro_detail{
+width: 100%;
+margin-bottom: 60px;
+}
+
+#project_part .project .dlast{
+margin-bottom: 0;
+} */
+
+#project_part .project .pro_detail .image{
+width: auto;
+}
+
+#project_part .project .pro_detail .headline p{
+width: auto;
+font-size: 12px;
+}
+
+#project_part .project .pro_detail .headline a{
+    font-size: 10px;
+    padding: 12px 18px;
+}
+
+
+   /* project part end */
+
+
+
+
+
+
+
+   /* project part start */
+
+#testimonial_part .overlay{
+padding: 40px 0;
+}
+
+#testimonial_part .overlay .item p{
+width: auto;
+}
+
+   /* project part end */
+
+
+
+
+
+   /* contact part start */
+
+#contact_part .info input{
+width: 400px;
+padding: 18px 22px;
+margin: 0 auto;
+display: block;
+}
+
+#contact_part .info .name{
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+#contact_part .info .mb{
+margin-bottom: 40px;
+}
+
+#contact_part .info textarea.form-control{
+margin: 0 auto;
+}
+
+#contact_part .info .form-control{
+width: 400px;
+}
+
+#contact_part .info .form-control + label{
+top: 425px;
+left: 32%;
+}
+
+#contact_part .image{
+margin-top: 0;
+}
+
+   /* contact part end */
+
+
+
+
+
+
+    /* footer part start */
+
+footer .details{
+padding-top: 70px;
+}
+
+footer .details .icon{
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+footer .details .text p{
+width: 216px;
+margin: 0 auto;
+}
+
+footer .details .text .p{
+margin: 0 auto;
+}
+
+footer .details .follow .icn i{
+width: 42px;
+height: 42px;
+line-height: 42px;
+font-size: 17px;
+margin-left: 5px;
+margin-right: 5px;
+}
+
+.btop{
+padding: 5px 16px;
+font-size: 18px;
+bottom: 75px;
+right: 15px;
+}
+
+   /* footer part end */
+
+}
+
+
+
+    
+
+
+
+
+
