@@ -113,7 +113,7 @@
         margin-right: 0;
      }
 
-     #about_part .detail .btn{
+     #about_part .detail .bttn{
         margin-left: 10px;
         
      }
@@ -175,8 +175,19 @@
 
                 /* contact part start */
 
+
+                #contact_part .row{
+                    margin-left: 0;
+                    margin-right: 0;
+                    margin-top: 30px;
+                }
+                #contact_part .info{
+                    width: 100%;
+                    text-align: center;
+                    margin: 0 auto;
+                }
     #contact_part .info input{
-        width: 300px;
+        width: 280px;
         padding: 18px 22px;
         margin: 0 auto;
         display: block;
@@ -193,16 +204,14 @@
 
     #contact_part .info textarea.form-control{
         margin: 0 auto;
+        width: 280px;
     }
 
     #contact_part .info .form-control{
         width: 300px;
     }
 
-    #contact_part .info .form-control + label{
-        top: 425px;
-        left: 32%;
-    }
+   
 
     #contact_part .image{
         margin-top: 0;
@@ -266,14 +275,14 @@
 
     /* navbar */
 
-.navbar{
+/* .navbar{
 padding: 8px 8px !important;
 }
 
 .navbar-brand img{
 width: 70%;
 margin-left: 7px;
-}
+} */
 
 .navbar-toggler i{
 color: #5dc269;;
@@ -377,7 +386,7 @@ margin-left: 0;
 margin-right: 0;
 }
 
-#about_part .detail .btn{
+#about_part .detail .bttn{
 margin-left: 10px;
 
 }
@@ -439,8 +448,20 @@ width: auto;
 
    /* contact part start */
 
+
+
+   #contact_part .row{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 30px;
+}
+#contact_part .info{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
 #contact_part .info input{
-width: 300px;
+width: 350px;
 padding: 18px 22px;
 margin: 0 auto;
 display: block;
@@ -457,16 +478,13 @@ margin-bottom: 40px;
 
 #contact_part .info textarea.form-control{
 margin: 0 auto;
+width: 350px;
 }
 
 #contact_part .info .form-control{
 width: 300px;
 }
 
-#contact_part .info .form-control + label{
-top: 425px;
-left: 35%;
-}
 
 #contact_part .image{
 margin-top: 0;
@@ -629,7 +647,7 @@ width: auto;
     margin-left: 0;
 }
 
-#about_part .detail .btn{
+#about_part .detail .bttn{
     margin-left: 20px;
 }
 
@@ -698,8 +716,19 @@ width: auto;
 
    /* contact part start */
 
+
+   #contact_part .row{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 30px;
+}
+#contact_part .info{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
 #contact_part .info input{
-width: 400px;
+width: 520px;
 padding: 18px 22px;
 margin: 0 auto;
 display: block;
@@ -716,16 +745,13 @@ margin-bottom: 40px;
 
 #contact_part .info textarea.form-control{
 margin: 0 auto;
+width: 520px;
 }
 
 #contact_part .info .form-control{
-width: 400px;
+width: 300px;
 }
 
-#contact_part .info .form-control + label{
-top: 425px;
-left: 32%;
-}
 
 #contact_part .image{
 margin-top: 0;
